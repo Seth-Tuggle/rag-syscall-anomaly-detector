@@ -1,0 +1,131 @@
+execve("/usr/bin/google-chrome", ["google-chrome"], 0x7fffffffd618 /* 51 vars */)
+brk(NULL)
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd530)
+access("/etc/ld.so.preload", R_OK)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 94798, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC)
+read(3, "[sample buffer]"..., 832)
+fstat(3, {st_mode
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0)
+mmap(NULL, 194944, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+mmap(0x7ffff7f8d000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000)
+mmap(0x7ffff7f9c000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000)
+mmap(0x7ffff7faa000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000)
+close(3)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC)
+read(3, "[sample buffer]"..., 832)
+fstat(3, {st_mode
+mmap(NULL, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+mmap(0x7ffff7f7a000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000)
+mmap(0x7ffff7f7c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000)
+mmap(0x7ffff7f7d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000)
+close(3)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC)
+read(3, "[sample buffer]"..., 832)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+fstat(3, {st_mode
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+mmap(0x7ffff7da9000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+mmap(0x7ffff7f21000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000)
+mmap(0x7ffff7f6f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+mmap(0x7ffff7f75000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0)
+close(3)
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0)
+arch_prctl(ARCH_SET_FS, 0x7ffff7d84740)
+mprotect(0x7ffff7f6f000, 16384, PROT_READ)
+mprotect(0x7ffff7f7d000, 4096, PROT_READ)
+mprotect(0x7ffff7faa000, 16384, PROT_READ)
+mprotect(0x555555669000, 16384, PROT_READ)
+mprotect(0x7ffff7ffc000, 4096, PROT_READ)
+munmap(0x7ffff7fb1000, 94798)
+openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK)
+close(3)
+brk(NULL)
+brk(0x5555556a1000)
+openat(AT_FDCWD, "[sample identifier]", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 3035952, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+read(3, "[sample buffer]"..., 4096)
+read(3, "[sample buffer]", 4096)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 252, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY)
+fstat(3, {st_mode
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 47, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 131, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 62, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 48, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 270, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 1518110, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 3360, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 50, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+openat(AT_FDCWD, "/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+mmap(NULL, 201272, PROT_READ, MAP_PRIVATE, 3, 0)
+close(3)
+getuid()
+getgid()
+geteuid()
+getegid()
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)
+ioctl(-1, TIOCGPGRP, 0x7fffffffd384)
+sysinfo({uptime
+rt_sigaction(SIGCHLD, {sa_handler
+rt_sigaction(SIGCHLD, {sa_handler
+rt_sigaction(SIGINT, {sa_handler
+rt_sigaction(SIGINT, {sa_handler
+rt_sigaction(SIGQUIT, {sa_handler
+rt_sigaction(SIGQUIT, {sa_handler
+rt_sigaction(SIGTSTP, {sa_handler
+rt_sigaction(SIGTSTP, {sa_handler

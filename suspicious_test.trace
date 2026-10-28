@@ -1,0 +1,260 @@
+connect 127.0.0.1:80
+sendto fd=4 len=64
+read fd=3 len=512
+stat /usr/bin/python3
+getuid
+stat /usr/bin/python3
+lseek fd=3 off=0 whence=SEEK_SET
+close fd=3
+openat /etc/passwd
+openat /var/log/syslog
+stat /usr/bin/python3
+listen fd=6 backlog=5
+read fd=3 len=512
+bind 0.0.0.0:8080
+socket AF_INET SOCK_STREAM
+munmap addr=0x0 len=4096
+lseek fd=3 off=0 whence=SEEK_SET
+accept fd=5
+listen fd=6 backlog=5
+accept fd=5
+stat /usr/bin/python3
+close fd=3
+openat /etc/passwd
+write fd=1 len=128
+socket AF_INET SOCK_STREAM
+stat /usr/bin/python3
+fstat fd=3
+connect 127.0.0.1:80
+bind 0.0.0.0:8080
+openat /var/log/syslog
+mmap addr=0x0 len=4096 prot=rw
+stat /usr/bin/python3
+write fd=1 len=128
+bind 0.0.0.0:8080
+close fd=3
+bind 0.0.0.0:8080
+connect 127.0.0.1:80
+mmap addr=0x0 len=4096 prot=rw
+sendto fd=4 len=64
+bind 0.0.0.0:8080
+connect 127.0.0.1:80
+socket AF_INET SOCK_STREAM
+mmap addr=0x0 len=4096 prot=rw
+bind 0.0.0.0:8080
+fstat fd=3
+listen fd=6 backlog=5
+bind 0.0.0.0:8080
+getpid
+stat /usr/bin/python3
+getpid
+connect 127.0.0.1:80
+listen fd=6 backlog=5
+stat /usr/bin/python3
+getpid
+bind 0.0.0.0:8080
+read fd=3 len=512
+getuid
+stat /usr/bin/python3
+getpid
+sendto fd=4 len=64
+sendto fd=4 len=64
+mmap addr=0x0 len=4096 prot=rw
+read fd=3 len=512
+close fd=3
+close fd=3
+stat /usr/bin/python3
+accept fd=5
+close fd=3
+lseek fd=3 off=0 whence=SEEK_SET
+read fd=3 len=512
+socket AF_INET SOCK_STREAM
+socket AF_INET SOCK_STREAM
+sendto fd=4 len=64
+mmap addr=0x0 len=4096 prot=rw
+bind 0.0.0.0:8080
+socket AF_INET SOCK_STREAM
+openat /var/log/syslog
+lseek fd=3 off=0 whence=SEEK_SET
+socket AF_INET SOCK_STREAM
+accept fd=5
+munmap addr=0x0 len=4096
+openat /etc/passwd
+munmap addr=0x0 len=4096
+accept fd=5
+listen fd=6 backlog=5
+openat /etc/passwd
+recvfrom fd=4 len=64
+getuid
+accept fd=5
+socket AF_INET SOCK_STREAM
+mmap addr=0x0 len=4096 prot=rw
+mmap addr=0x0 len=4096 prot=rw
+stat /usr/bin/python3
+listen fd=6 backlog=5
+stat /usr/bin/python3
+getpid
+socket AF_INET SOCK_STREAM
+listen fd=6 backlog=5
+openat /etc/passwd
+accept fd=5
+sendto fd=4 len=64
+accept fd=5
+fstat fd=3
+bind 0.0.0.0:8080
+close fd=3
+mmap addr=0x0 len=4096 prot=rw
+openat /etc/passwd
+accept fd=5
+munmap addr=0x0 len=4096
+munmap addr=0x0 len=4096
+openat /etc/passwd
+read fd=3 len=512
+socket AF_INET SOCK_STREAM
+close fd=3
+bind 0.0.0.0:8080
+fstat fd=3
+openat /var/log/syslog
+getpid
+accept fd=5
+sendto fd=4 len=64
+lseek fd=3 off=0 whence=SEEK_SET
+bind 0.0.0.0:8080
+sendto fd=4 len=64
+sendto fd=4 len=64
+accept fd=5
+getpid
+socket AF_INET SOCK_STREAM
+getpid
+read fd=3 len=512
+listen fd=6 backlog=5
+openat /etc/passwd
+mmap addr=0x0 len=4096 prot=rw
+openat /var/log/syslog
+recvfrom fd=4 len=64
+stat /usr/bin/python3
+read fd=3 len=512
+openat /var/log/syslog
+openat /etc/passwd
+stat /usr/bin/python3
+lseek fd=3 off=0 whence=SEEK_SET
+openat /etc/passwd
+close fd=3
+stat /usr/bin/python3
+close fd=3
+listen fd=6 backlog=5
+write fd=1 len=128
+munmap addr=0x0 len=4096
+lseek fd=3 off=0 whence=SEEK_SET
+bind 0.0.0.0:8080
+getpid
+recvfrom fd=4 len=64
+fstat fd=3
+write fd=1 len=128
+fstat fd=3
+getuid
+write fd=1 len=128
+munmap addr=0x0 len=4096
+openat /etc/passwd
+getuid
+munmap addr=0x0 len=4096
+accept fd=5
+accept fd=5
+lseek fd=3 off=0 whence=SEEK_SET
+read fd=3 len=512
+munmap addr=0x0 len=4096
+stat /usr/bin/python3
+write fd=1 len=128
+getuid
+write fd=1 len=128
+munmap addr=0x0 len=4096
+openat /var/log/syslog
+recvfrom fd=4 len=64
+mmap addr=0x0 len=4096 prot=rw
+socket AF_INET SOCK_STREAM
+recvfrom fd=4 len=64
+read fd=3 len=512
+connect 127.0.0.1:80
+sendto fd=4 len=64
+openat /etc/passwd
+socket AF_INET SOCK_STREAM
+listen fd=6 backlog=5
+write fd=1 len=128
+socket AF_INET SOCK_STREAM
+recvfrom fd=4 len=64
+bind 0.0.0.0:8080
+close fd=3
+socket AF_INET SOCK_STREAM
+fstat fd=3
+connect 127.0.0.1:80
+getpid
+mmap addr=0x0 len=4096 prot=rw
+listen fd=6 backlog=5
+bind 0.0.0.0:8080
+socket AF_INET SOCK_STREAM
+munmap addr=0x0 len=4096
+getpid
+sendto fd=4 len=64
+stat /usr/bin/python3
+read fd=3 len=512
+getpid
+bind 0.0.0.0:8080
+stat /usr/bin/python3
+bind 0.0.0.0:8080
+munmap addr=0x0 len=4096
+accept fd=5
+sendto fd=4 len=64
+openat /etc/passwd
+listen fd=6 backlog=5
+sendto fd=4 len=64
+fstat fd=3
+listen fd=6 backlog=5
+lseek fd=3 off=0 whence=SEEK_SET
+recvfrom fd=4 len=64
+getpid
+sendto fd=4 len=64
+getpid
+getpid
+mmap addr=0x0 len=4096 prot=rw
+openat /etc/passwd
+connect 127.0.0.1:80
+lseek fd=3 off=0 whence=SEEK_SET
+read fd=3 len=512
+stat /usr/bin/python3
+socket AF_INET SOCK_STREAM
+listen fd=6 backlog=5
+mmap addr=0x0 len=4096 prot=rw
+stat /usr/bin/python3
+listen fd=6 backlog=5
+execve /bin/sh -c 'sh -i'
+ptrace PTRACE_TRACEME
+openat /etc/shadow
+recvfrom fd=4 len=128
+recvfrom fd=4 len=128
+socket AF_INET SOCK_STREAM
+socket AF_INET SOCK_STREAM
+sendto fd=4 len=2048
+connect 192.0.2.10:4444
+mprotect addr=0x7fff len=8192 prot=PROT_READ|PROT_EXEC
+mmap addr=0x0 len=65536 prot=PROT_READ|PROT_WRITE
+stat /usr/bin/python3
+mprotect addr=0x7fff len=8192 prot=PROT_READ|PROT_EXEC
+mmap addr=0x0 len=4096 prot=rw
+socket AF_INET SOCK_STREAM
+mmap addr=0x0 len=4096 prot=rw
+bind 0.0.0.0:8080
+connect 192.0.2.10:4444
+clone flags=CLONE_VM|CLONE_FS|CLONE_FILES
+execve /bin/sh -c 'sh -i'
+fstat fd=3
+clone flags=CLONE_VM|CLONE_FS|CLONE_FILES
+munmap addr=0x0 len=4096
+connect 127.0.0.1:80
+write fd=1 len=128
+getuid
+execve /usr/bin/sudo
+clone flags=CLONE_VM|CLONE_FS|CLONE_FILES
+getpid
+ptrace PTRACE_TRACEME
+close fd=3
+listen fd=6 backlog=5

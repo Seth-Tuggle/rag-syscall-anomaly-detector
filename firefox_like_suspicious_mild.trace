@@ -1,0 +1,320 @@
+exit_group(0)
+rt_sigaction(SIGTERM, {sa_handler
+geteuid()
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+rt_sigaction(SIGCHLD, {sa_handler
+rt_sigaction(SIGTERM, {sa_handler
+rt_sigaction(SIGINT, NULL, {sa_handler
+stat("/usr/local/bin/which", 0x7fffffffcf30)
+read(3, "[sample buffer]"..., 832)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+rt_sigaction(SIGINT, {sa_handler
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+fstat(3, {st_mode
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd540)
+brk(NULL)
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+mmap(NULL, 94798, PROT_READ, MAP_PRIVATE, 3, 0)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+fcntl(3, F_DUPFD, 10)
+munmap(0x7ffff7fb1000, 94798)
+close(3)
+getpid()
+rt_sigaction(SIGTERM, {sa_handler
+rt_sigaction(SIGQUIT, {sa_handler
+geteuid()
+execve("/usr/bin/which", ["which", "/usr/bin/firefox"], 0x555555577ea8 /* 51 vars */)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+brk(NULL)
+rt_sigaction(SIGQUIT, {sa_handler
+--- SIGCHLD {si_signo
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd540)
+rt_sigaction(SIGTERM, NULL, {sa_handler
+read(3, <unfinished ...>
+mprotect(0x7ffff7fa5000, 16384, PROT_READ)
+--- SIGCHLD {si_signo
+write(1, "[sample buffer]", 17 <unfinished ...>
+close(3)
+read(3, "[sample buffer]"..., 832)
+access("/etc/ld.so.preload", R_OK)
+close(4)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+getpid()
+close(4 <unfinished ...>
+getuid()
+mmap(0x7ffff7f57000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+getpid()
+read(3, <unfinished ...>
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd540)
+<... close resumed>)
+brk(0x555555598000)
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+<... read resumed>"/usr/bin/firefox\n", 128)
+geteuid()
+close(3)
+stat("/usr/bin/which", {st_mode
+read(3, <unfinished ...>
+openat(AT_FDCWD, "/usr/bin/firefox", O_RDONLY)
+brk(0x555555598000)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+rt_sigaction(SIGTERM, {sa_handler
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+fcntl(3, F_DUPFD, 10)
+pipe([3, 4])
+rt_sigaction(SIGTERM, {sa_handler
+fstat(3, {st_mode
+rt_sigaction(SIGCHLD, {sa_handler
+mmap(0x7ffff7f57000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000)
+<... close resumed>)
+fstat(3, {st_mode
+getegid()
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+rt_sigaction(SIGQUIT, {sa_handler
+exit_group(0)
+<... read resumed>"/usr/bin/firefox\n", 128)
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+sendto fd 4 len 4096
+stat("/usr/local/bin/which", 0x7fffffffcf30)
+setuid 0
+rt_sigreturn({mask
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+rt_sigaction(SIGQUIT, {sa_handler
+mprotect(0x7ffff7ffc000, 4096, PROT_READ)
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+getppid()
+rt_sigaction(SIGINT, NULL, {sa_handler
+getppid()
+close(3)
+stat("/usr/local/bin/which", 0x7fffffffcf30)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+fcntl(3, F_DUPFD, 10)
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+getppid()
+getppid()
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+fstat(3, {st_mode
+<... write resumed>)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+close(4)
+rt_sigaction(SIGQUIT, {sa_handler
+rt_sigaction(SIGQUIT, {sa_handler
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+fstat(3, {st_mode
+stat("/home/your-user", {st_mode
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+close(4)
+mmap(0x7ffff7f57000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000)
+stat("/usr/bin/firefox", {st_mode
+rt_sigaction(SIGINT, {sa_handler
+munmap(0x7ffff7fb1000, 94798)
+read(10, "[sample buffer]"..., 8192)
+clone(child_stack
+close(3)
+faccessat(AT_FDCWD, "/usr/bin/firefox", X_OK)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC)
+geteuid()
+stat("/usr/bin/which", {st_mode
+brk(NULL)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC)
+stat(".", {st_mode
+getgid()
+read(10, "[sample buffer]"..., 8192)
+rt_sigaction(SIGTERM, NULL, {sa_handler
+close(3)
+brk(NULL)
+chmod /usr/bin/firefox 4755
+<... close resumed>)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+fcntl(3, F_DUPFD, 10)
+write fd 1 len 2048
+rt_sigreturn({mask
+close(3)
+brk(NULL)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+rt_sigaction(SIGTERM, NULL, {sa_handler
+fstat(3, {st_mode
+close(4 <unfinished ...>
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0)
+read(3, <unfinished ...>
+rt_sigaction(SIGINT, NULL, {sa_handler
+<... close resumed>)
+geteuid()
+rt_sigaction(SIGQUIT, NULL, {sa_handler
+--- SIGCHLD {si_signo
+geteuid()
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+mprotect(0x555555572000, 8192, PROT_READ)
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+mprotect(0x7ffff7ffc000, 4096, PROT_READ)
+--- SIGCHLD {si_signo
+mprotect(0x7ffff7fa5000, 16384, PROT_READ)
+brk(NULL)
+close(4 <unfinished ...>
+mmap(0x7ffff7fab000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0)
+mprotect(0x7ffff7fa5000, 16384, PROT_READ)
+rt_sigaction(SIGQUIT, NULL, {sa_handler
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+clone(child_stack
+read(3, <unfinished ...>
+rt_sigaction(SIGQUIT, {sa_handler
+munmap(0x7ffff7fb1000, 94798)
+openat(AT_FDCWD, "/usr/bin/which", O_RDONLY)
+mmap(0x7ffff7fab000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+access("/etc/ld.so.preload", R_OK)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC)
+mmap(0x7ffff7fab000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0)
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+execve /bin/sh -c sh
+close(3)
+stat("/home/your-user", {st_mode
+munmap(0x7ffff7fb1000, 94798)
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+rt_sigaction(SIGCHLD, {sa_handler
+rt_sigaction(SIGCHLD, {sa_handler
+getgid()
+mprotect(0x555555572000, 8192, PROT_READ)
+access("/etc/ld.so.preload", R_OK)
+stat(".", {st_mode
+openat(AT_FDCWD, "/usr/bin/which", O_RDONLY)
+mmap(NULL, 94798, PROT_READ, MAP_PRIVATE, 3, 0)
+getegid()
+access("/etc/ld.so.preload", R_OK)
+stat("/usr/bin/which", {st_mode
+brk(0x555555598000)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
+<... read resumed>"", 128)
+brk(0x555555598000)
+fstat(3, {st_mode
+rt_sigaction(SIGTERM, NULL, {sa_handler
+close(3)
+munmap(0x7ffff7fb1000, 94798)
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd530)
+clone(child_stack
+rt_sigaction(SIGTERM, NULL, {sa_handler
+rt_sigaction(SIGQUIT, NULL, {sa_handler
+rt_sigaction(SIGTERM, {sa_handler
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+close(3)
+read(10, "[sample buffer]"..., 8192)
+close(4 <unfinished ...>
+geteuid()
+access("/etc/ld.so.preload", R_OK)
+stat("/usr/bin/which", {st_mode
+read(3, "[sample buffer]"..., 832)
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd530)
+<... read resumed>"/usr/bin/firefox\n", 128)
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fffffffd540)
+rt_sigaction(SIGTERM, {sa_handler
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+clone(child_stack
+brk(NULL)
+rt_sigaction(SIGQUIT, NULL, {sa_handler
+arch_prctl(ARCH_SET_FS, 0x7ffff7fb0580)
+brk(0x555555598000)
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+mount tmpfs /tmp tmpfs
+rt_sigaction(SIGQUIT, {sa_handler
+brk(NULL)
+close(3)
+rt_sigaction(SIGTERM, NULL, {sa_handler
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+<... read resumed>"/usr/bin/firefox\n", 128)
+getuid()
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+fstat(3, {st_mode
+getgid()
+<... close resumed>)
+arch_prctl(ARCH_SET_FS, 0x7ffff7fb0580)
+geteuid()
+access("/etc/ld.so.preload", R_OK)
+execve("/usr/bin/firefox", ["firefox"], 0x7fffffffd628 /* 51 vars */)
+close(3)
+getuid()
+stat("/usr/bin/which", {st_mode
+getuid()
+rt_sigaction(SIGCHLD, {sa_handler
+mprotect(0x7ffff7fa5000, 16384, PROT_READ)
+brk(NULL)
+close(3)
+stat("/usr/sbin/which", 0x7fffffffcf30)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+access("/etc/ld.so.preload", R_OK)
+stat("/usr/bin/firefox", {st_mode
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0)
+fcntl(3, F_DUPFD, 10)
+close(3)
+read(3, "[sample buffer]"..., 832)
+stat("/usr/bin/firefox", {st_mode
+read(3, <unfinished ...>
+close(4 <unfinished ...>
+fstat(3, {st_mode
+execve("/usr/bin/firefox", ["firefox"], 0x7fffffffd628 /* 51 vars */)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+close(4 <unfinished ...>
+fstat(3, {st_mode
+rt_sigaction(SIGINT, {sa_handler
+geteuid()
+close(3)
+pipe([3, 4])
+getpid()
+rt_sigaction(SIGTERM, NULL, {sa_handler
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+rt_sigaction(SIGTERM, {sa_handler
+mmap(0x7ffff7fab000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)
++++ exited with 0 +++
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+rt_sigaction(SIGTERM, {sa_handler
+munmap(0x7ffff7fb1000, 94798)
+faccessat(AT_FDCWD, "/usr/bin/firefox", X_OK)
+rt_sigaction(SIGINT, NULL, {sa_handler
+stat("/usr/local/sbin/which", 0x7fffffffcf30)
+access("/etc/ld.so.preload", R_OK)
+close(3)
+stat("/usr/bin/which", {st_mode
+arch_prctl(ARCH_SET_FS, 0x7ffff7fb0580)
+stat("/home/your-user", {st_mode
+close(4 <unfinished ...>
+read(3, "[sample buffer]"..., 832)
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\2C\n\357_\243\335\2449\206V>\237\374\304"..., 68, 880)
+write(1, "[sample buffer]", 17 <unfinished ...>
+rt_sigaction(SIGQUIT, {sa_handler
+mmap(0x7ffff7fa5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000)
+brk(NULL)
+mprotect(0x7ffff7ffc000, 4096, PROT_READ)
+openat(AT_FDCWD, "/usr/bin/which", O_RDONLY)
+openat /etc/shadow
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC)
+fstat(3, {st_mode
+rt_sigaction(SIGQUIT, {sa_handler
+brk(NULL)
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64)
+fstat(3, {st_mode
+dup2(4, 1)
+fstat(3, {st_mode
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848)
+munmap(0x7ffff7fb1000, 94798)
+read(10, "[sample buffer]"..., 8192)
+rt_sigaction(SIGCHLD, {sa_handler
+rt_sigaction(SIGTERM, NULL, {sa_handler
+write(1, "[sample buffer]", 17 <unfinished ...>
+rt_sigaction(SIGCHLD, {sa_handler
+--- SIGCHLD {si_signo
+read(10, "[sample buffer]"..., 8192)
+fstat(3, {st_mode
+rt_sigaction(SIGQUIT, NULL, {sa_handler
+read(3, "[sample buffer]"..., 832)
+mprotect(0x7ffff7ffc000, 4096, PROT_READ)
+mmap(0x7ffff7ddf000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000)
+mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0)

@@ -1,0 +1,220 @@
+openat /etc/passwd
+stat /usr/bin/python3
+write fd=1 len=128
+mmap addr=0x0 len=4096 prot=rw
+socket AF_INET SOCK_STREAM
+read fd=3 len=512
+connect 127.0.0.1:80
+mmap addr=0x0 len=4096 prot=rw
+mmap addr=0x0 len=4096 prot=rw
+bind 0.0.0.0:8080
+openat /etc/passwd
+fstat fd=3
+sendto fd=4 len=64
+lseek fd=3 off=0 whence=SEEK_SET
+sendto fd=4 len=64
+accept fd=5
+recvfrom fd=4 len=64
+openat /var/log/syslog
+mmap addr=0x0 len=4096 prot=rw
+accept fd=5
+getuid
+recvfrom fd=4 len=64
+read fd=3 len=512
+stat /usr/bin/python3
+read fd=3 len=512
+write fd=1 len=128
+bind 0.0.0.0:8080
+recvfrom fd=4 len=64
+recvfrom fd=4 len=64
+getpid
+read fd=3 len=512
+fstat fd=3
+stat /usr/bin/python3
+accept fd=5
+mmap addr=0x0 len=4096 prot=rw
+sendto fd=4 len=64
+openat /var/log/syslog
+openat /var/log/syslog
+accept fd=5
+lseek fd=3 off=0 whence=SEEK_SET
+munmap addr=0x0 len=4096
+sendto fd=4 len=64
+listen fd=6 backlog=5
+bind 0.0.0.0:8080
+close fd=3
+mmap addr=0x0 len=4096 prot=rw
+munmap addr=0x0 len=4096
+munmap addr=0x0 len=4096
+stat /usr/bin/python3
+close fd=3
+read fd=3 len=512
+write fd=1 len=128
+fstat fd=3
+socket AF_INET SOCK_STREAM
+accept fd=5
+bind 0.0.0.0:8080
+mmap addr=0x0 len=4096 prot=rw
+openat /etc/passwd
+write fd=1 len=128
+mmap addr=0x0 len=4096 prot=rw
+sendto fd=4 len=64
+socket AF_INET SOCK_STREAM
+openat /etc/passwd
+getpid
+fstat fd=3
+write fd=1 len=128
+getuid
+connect 127.0.0.1:80
+close fd=3
+fstat fd=3
+connect 127.0.0.1:80
+sendto fd=4 len=64
+write fd=1 len=128
+getuid
+stat /usr/bin/python3
+read fd=3 len=512
+listen fd=6 backlog=5
+mmap addr=0x0 len=4096 prot=rw
+close fd=3
+mmap addr=0x0 len=4096 prot=rw
+connect 127.0.0.1:80
+socket AF_INET SOCK_STREAM
+mmap addr=0x0 len=4096 prot=rw
+lseek fd=3 off=0 whence=SEEK_SET
+accept fd=5
+recvfrom fd=4 len=64
+connect 127.0.0.1:80
+stat /usr/bin/python3
+sendto fd=4 len=64
+futex wait pid=1234
+openat /etc/passwd
+openat /var/log/syslog
+openat /var/log/syslog
+read fd=3 len=512
+getpid
+lseek fd=3 off=0 whence=SEEK_SET
+munmap addr=0x0 len=4096
+stat /usr/bin/python3
+socket AF_INET SOCK_STREAM
+write fd=1 len=128
+recvfrom fd=4 len=64
+bind 0.0.0.0:8080
+openat /var/log/syslog
+write fd=1 len=128
+sendto fd=4 len=64
+write fd=1 len=128
+lseek fd=3 off=0 whence=SEEK_SET
+close fd=3
+getpid
+read fd=3 len=512
+mmap addr=0x0 len=4096 prot=rw
+mmap addr=0x0 len=4096 prot=rw
+read fd=3 len=512
+stat /usr/bin/python3
+listen fd=6 backlog=5
+accept fd=5
+fstat fd=3
+accept fd=5
+bind 0.0.0.0:8080
+mmap addr=0x0 len=4096 prot=rw
+listen fd=6 backlog=5
+getuid
+openat /var/log/syslog
+mmap addr=0x0 len=4096 prot=rw
+sendto fd=4 len=64
+munmap addr=0x0 len=4096
+connect 127.0.0.1:80
+connect 127.0.0.1:80
+fstat fd=3
+read fd=3 len=512
+stat /usr/bin/python3
+munmap addr=0x0 len=4096
+openat /var/log/syslog
+socket AF_INET SOCK_STREAM
+munmap addr=0x0 len=4096
+getpid
+sendto fd=4 len=64
+accept fd=5
+getuid
+read fd=3 len=512
+stat /usr/lib/libc.so.6
+lseek fd=3 off=0 whence=SEEK_SET
+close fd=3
+read fd=3 len=512
+recvfrom fd=4 len=64
+bind 0.0.0.0:8080
+getuid
+connect 127.0.0.1:80
+gettimeofday
+write fd=1 len=128
+close fd=3
+write fd=1 len=128
+close fd=3
+lseek fd=3 off=0 whence=SEEK_SET
+lseek fd=3 off=0 whence=SEEK_SET
+getpid
+getpid
+openat /var/log/syslog
+socket AF_INET SOCK_STREAM
+openat /var/log/syslog
+futex wait pid=1234
+getpid
+bind 0.0.0.0:8080
+socket AF_INET SOCK_STREAM
+write fd=1 len=128
+close fd=3
+recvfrom fd=4 len=64
+close fd=3
+openat /var/log/syslog
+openat /var/log/syslog
+lseek fd=3 off=0 whence=SEEK_SET
+write fd=1 len=128
+mmap addr=0x0 len=4096 prot=rw
+socket AF_INET SOCK_STREAM
+close fd=3
+stat /usr/bin/python3
+fstat fd=3
+openat /etc/passwd
+sendto fd=4 len=64
+socket AF_INET SOCK_STREAM
+stat /usr/bin/python3
+write fd=1 len=128
+openat /var/log/syslog
+stat /usr/bin/python3
+bind 0.0.0.0:8080
+stat /usr/bin/python3
+lseek fd=3 off=0 whence=SEEK_SET
+getpid
+getpid
+connect 127.0.0.1:80
+mmap addr=0x0 len=4096 prot=rw
+openat /etc/passwd
+getpid
+getpid
+socket AF_INET SOCK_STREAM
+sendto fd=4 len=64
+connect 127.0.0.1:80
+munmap addr=0x0 len=4096
+openat /var/log/syslog
+openat /etc/passwd
+mmap addr=0x0 len=4096 prot=rw
+lseek fd=3 off=0 whence=SEEK_SET
+read fd=3 len=512
+sendto fd=4 len=64
+write fd=1 len=128
+getuid
+socket AF_INET SOCK_STREAM
+getuid
+lseek fd=3 off=0 whence=SEEK_SET
+accept fd=5
+fstat fd=3
+getuid
+openat /etc/passwd
+lseek fd=3 off=0 whence=SEEK_SET
+munmap addr=0x0 len=4096
+sendto fd=4 len=64
+bind 0.0.0.0:8080
+connect 127.0.0.1:80
+fstat fd=3
+getuid
