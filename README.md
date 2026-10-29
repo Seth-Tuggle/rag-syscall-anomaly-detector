@@ -28,7 +28,6 @@ are not a validated malware classifier. Trace examples include simulated
 suspicious behavior. Local usernames/private network addresses were anonymized.
 The original API connectivity script was omitted from the test discovery path.
 
-See `RECOVERY_NOTES.md` for snapshot provenance.
 
 Legacy files named `normal_test.trace` and `suspicious_test.trace` both trigger the
 current detector. Their filenames are not verified classification labels.
